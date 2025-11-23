@@ -44,16 +44,12 @@ A clean and modern **Resume Builder Web Application** built using the **MERN sta
 * Tailwind CSS
 * Axios
 
-### **Backend**
 
-* Node.js
-* Express.js
-* MongoDB (If used in future versions)
 
 ### **Deployment**
 
 * Vercel (Frontend)
-* MongoDB Atlas (Optional if you store data)
+
 
 ---
 
@@ -75,21 +71,7 @@ cd client
 npm install
 ```
 
-#### Backend
 
-```bash
-cd server
-npm install
-```
-
-### 3️⃣ Environment Variables (if backend used)
-
-Create `.env` file in **server**:
-
-```
-MONGO_URI=your_mongodb_url
-PORT=5000
-```
 
 ### 4️⃣ Run the Application
 
@@ -100,17 +82,12 @@ cd server
 npm start
 ```
 
-#### Start Client
 
-```bash
-cd client
-npm start
-```
 
 Your app will be available at:
 
 * Frontend → [http://localhost:3000](http://localhost:3000)
-* Backend → [http://localhost:5000](http://localhost:5000)
+
 
 ---
 
@@ -121,12 +98,6 @@ Resume-Builder/
 ├── client/              # React Frontend
 │   ├── src/
 │   ├── public/
-│   └── package.json
-│
-├── server/              # Node/Express Backend
-│   ├── models/
-│   ├── routes/
-│   ├── controllers/
 │   └── package.json
 │
 └── README.md
