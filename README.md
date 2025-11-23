@@ -1,21 +1,152 @@
-💼 Resume Builder
+# 📄 Resume Builder
 
-Tech Stack: React, Next.js, TypeScript, Redux Toolkit, Tailwind CSS, React-PDF, PDF.js
+A clean and modern **Resume Builder Web Application** built using the **MERN stack**. It allows users to create professional resumes through intuitive forms with real-time preview and PDF download options.
 
-Description:
-Developed a modern resume builder web application that allows users to create, edit, and download professional resumes with real-time updates and ATS-friendly formatting.
+🔗 **Live Demo:** [https://resume-builder-blue-phi.vercel.app/](https://resume-builder-blue-phi.vercel.app/)
 
-Key Features:
+---
 
-Real-Time PDF Preview: Instantly updates the resume as the user edits the form.
+## ⭐ Highlights
 
-ATS-Friendly Layout: Automatically formats font styles, margins, and bullet points for professional output.
+* ✨ **Modern & Responsive UI** with a clean layout.
+* 📝 **Dynamic Form Sections** – Education, Experience, Projects, Skills, etc.
+* 👀 **Real-Time Resume Preview** while filling the form.
+* 📥 **Download Resume as PDF** with a single click.
+* ⚡ **Fast Performance** and optimized UX.
+* ☁️ **Deployed on Vercel** for reliable performance.
 
-Privacy Focused: Runs entirely in the browser with no data stored or uploaded externally.
+---
 
-Resume Import: Enables users to upload existing PDF resumes and edit their content easily.
+## 🖼️ Screenshots
 
-Downloadable Output: Generates a polished, ready-to-share PDF version of the resume.
+> *(Add real screenshots inside `screenshots/` folder and update file names below)*
 
-Outcome:
-Built an intuitive, privacy-first resume builder that simplifies resume creation while maintaining a clean and professional design.
+### 🏠 Home / Resume Form Page
+
+![Home Page](./screenshots/home.png)
+
+### 📄 Resume Preview
+
+![Preview](./screenshots/preview.png)
+
+### 📥 PDF Download Output
+
+![PDF](./screenshots/pdf.png)
+
+---
+
+## 🛠 Tech Stack
+
+### **Frontend**
+
+* React.js
+* Tailwind CSS
+* Axios
+
+### **Backend**
+
+* Node.js
+* Express.js
+* MongoDB (If used in future versions)
+
+### **Deployment**
+
+* Vercel (Frontend)
+* MongoDB Atlas (Optional if you store data)
+
+---
+
+## 📦 Installation & Setup
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/sonux-jatav/Resume-Builder.git
+cd Resume-Builder
+```
+
+### 2️⃣ Install Dependencies
+
+#### Frontend
+
+```bash
+cd client
+npm install
+```
+
+#### Backend
+
+```bash
+cd server
+npm install
+```
+
+### 3️⃣ Environment Variables (if backend used)
+
+Create `.env` file in **server**:
+
+```
+MONGO_URI=your_mongodb_url
+PORT=5000
+```
+
+### 4️⃣ Run the Application
+
+#### Start Server
+
+```bash
+cd server
+npm start
+```
+
+#### Start Client
+
+```bash
+cd client
+npm start
+```
+
+Your app will be available at:
+
+* Frontend → [http://localhost:3000](http://localhost:3000)
+* Backend → [http://localhost:5000](http://localhost:5000)
+
+---
+
+## 📁 Project Structure
+
+```
+Resume-Builder/
+├── client/              # React Frontend
+│   ├── src/
+│   ├── public/
+│   └── package.json
+│
+├── server/              # Node/Express Backend
+│   ├── models/
+│   ├── routes/
+│   ├── controllers/
+│   └── package.json
+│
+└── README.md
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to open a pull request.
+
+---
+
+## ⭐ Show Your Support
+
+If you like this project, please **star the repository** — it motivates me to improve further! 🌟
+
+---
+
+## 👤 Author
+
+**Sonu Jatav**
+MERN Stack Developer
+GitHub: [https://github.com/sonux-jatav](https://github.com/sonux-jatav)
