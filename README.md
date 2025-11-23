@@ -23,15 +23,14 @@ A clean and modern **Resume Builder Web Application** built using the **MERN sta
 
 ### 🏠 Home / Resume Form Page
 
-![Home Page]([./screenshots/home.png](https://github.com/sonux-jatav/Resume-Builder/blob/009108d4ac1f62ce1614a63d64713012ec2f618d/Screenshot%202025-11-23%20043825.png))
+![PDF](https://github.com/sonux-jatav/Resume-Builder/blob/009108d4ac1f62ce1614a63d64713012ec2f618d/Screenshot%202025-11-23%20043948.png)
 
 ### 📄 Section One
 
-![Preview]([./screenshots/preview.png](https://github.com/sonux-jatav/Resume-Builder/blob/009108d4ac1f62ce1614a63d64713012ec2f618d/Screenshot%202025-11-23%20043835.png))
-
+![PDF](https://github.com/sonux-jatav/Resume-Builder/blob/009108d4ac1f62ce1614a63d64713012ec2f618d/Screenshot%202025-11-23%20043948.png)
 ### 📥 Form section.
 
-![PDF]([./screenshots/pdf.png](https://github.com/sonux-jatav/Resume-Builder/blob/009108d4ac1f62ce1614a63d64713012ec2f618d/Screenshot%202025-11-23%20043846.png))
+![PDF](https://github.com/sonux-jatav/Resume-Builder/blob/009108d4ac1f62ce1614a63d64713012ec2f618d/Screenshot%202025-11-23%20043948.png)
 
 ### 📥 PDF Download Output
 ![PDF](https://github.com/sonux-jatav/Resume-Builder/blob/009108d4ac1f62ce1614a63d64713012ec2f618d/Screenshot%202025-11-23%20043948.png)
